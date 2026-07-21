@@ -11,8 +11,23 @@
 
 ## Judge run
 
+Verify both experiences:
+
 ```bash
 npm test
+```
+
+Run the four-view product shown in the public video:
+
+```bash
+npm run start:video
+```
+
+Open `http://127.0.0.1:4175/vandaag.html` and follow **Today → Insight → Decide → Explore**.
+
+Optional condensed jury experience:
+
+```bash
 npm start
 ```
 
