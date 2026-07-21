@@ -1,7 +1,9 @@
 {
   "name": "warm-energy-coach",
   "version": "1.0.0",
+  "description": "Privacy-safe, explainable household energy jury demo for OpenAI Build Week 2026.",
   "private": false,
+  "license": "MIT",
   "type": "module",
   "engines": {
     "node": ">=20"
