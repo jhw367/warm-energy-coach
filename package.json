@@ -10,6 +10,7 @@
   },
   "scripts": {
     "start": "node server.mjs",
-    "test": "node test/demo.mjs"
+    "start:video": "node video-demo/server.mjs",
+    "test": "node test/demo.mjs && node video-demo/test/demo.mjs"
   }
 }

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
+    <meta name="theme-color" content="#143d34">
+    <meta name="description" content="WARM turns a household energy profile into transparent, ranked actions.">
+    <title>WARM · Build Week video demo</title>
+    <link rel="stylesheet" href="/app.css">
+    <script type="module" src="/app.js"></script>
+  </head>
+  <body>
+    <div class="disclosure" role="status">
+      <span class="disclosure-dot" aria-hidden="true"></span>
+      Synthetic Build Week demo · offline data · no device control
+    </div>
+
+    <header class="site-header">
+      <a class="brand" href="/vandaag.html" aria-label="WARM home">
+        <span class="brand-mark" aria-hidden="true">W</span>
+        <span>
+          <strong>WARM</strong>
+          <small>home energy, made actionable</small>
+        </span>
+      </a>
+      <nav aria-label="Product views">
+        <a data-route="today" href="/vandaag.html">Today</a>
+        <a data-route="insight" href="/energy.html">Insight</a>
+        <a data-route="decide" href="/forward.html">Decide</a>
+        <a data-route="explore" href="/whatif.html">Explore</a>
+      </nav>
+    </header>
+
+    <main id="app">
+      <section class="loading" aria-live="polite">
+        <span class="spinner" aria-hidden="true"></span>
+        Loading the synthetic household…
+      </section>
+    </main>
+
+    <footer>
+      <span>WARM · competition-safe video demo</span>
+      <span>Local requests only · no persistence · no commands</span>
+    </footer>
+
+    <noscript>This working demo requires JavaScript for its four interactive views.</noscript>
+  </body>
+</html>
